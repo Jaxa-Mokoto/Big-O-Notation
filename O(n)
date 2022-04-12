@@ -1,0 +1,22 @@
+O(n) = Linear Time.
+It is common to see this notation in most algorithms defined today.
+O(n) states defines a linear relationship between the Elements and the # of operations to be executed (i.e. a single for-loop)
+
+
+Question:
+
+// What is the Big O of the below function? (Hint, you may want to go line by line)
+function funChallenge(input) {
+  let a = 10;
+  a = 50 + 3;
+
+  for (let i = 0; i < input.length; i++) {
+    anotherFunction();
+    let stranger = true;
+    a++;
+  }
+  return a;
+}
+
+Answer = O(n)
+Reasoning: as the number of elements increase in the input (i.e. length in this case), there will be a linear proportion of operations required to execute in the loop
