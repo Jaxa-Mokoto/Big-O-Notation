@@ -22,3 +22,26 @@ Answer = O(3 + 4n) ~ simplified to O(n)
 Reasoning: as the number of elements increase in the input (i.e. length in this case), there will be a linear proportion of operations required to execute in the loop
 this is inaddition to the Constant Time O notation which in this case was O(1) x 3 = O(3)
 Remember that loops are linear time O(n)
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// What is the Big O of the below function? (Hint, you may want to go line by line)
+function anotherFunChallenge(input) {
+  let a = 5; // O(1)
+  let b = 10; // O(1)
+  let c = 50; // O(1)
+  for (let i = 0; i < input; i++) { // O(n)
+    let x = i + 1; // O(n)
+    let y = i + 2; // O(n)
+    let z = i + 3; // O(n)
+  }
+  
+  for (let j = 0; j < input; j++) { // O(n)
+    let p = j * 2; // O(n)
+    let q = j * 2; // O(n)
+  }
+  let whoAmI = "I don't know"; // O(1)
+}
+
+Answer = O(1) ~ 4 and O(n) ~ O(6n) = O(4 + 6n) ==== O(n)
