@@ -7,10 +7,10 @@ Question:
 
 // What is the Big O of the below function? (Hint, you may want to go line by line)
 function funChallenge(input) {
-  let a = 10;
-  a = 50 + 3;
+  let a = 10; //O(1)
+  a = 50 + 3; //O(1)
 
-  for (let i = 0; i < input.length; i++) {
+  for (let i = 0; i < input.length; i++) { //O(n)
     anotherFunction();
     let stranger = true;
     a++;
@@ -20,3 +20,4 @@ function funChallenge(input) {
 
 Answer = O(n)
 Reasoning: as the number of elements increase in the input (i.e. length in this case), there will be a linear proportion of operations required to execute in the loop
+Remember that loops are linear time O(n)
