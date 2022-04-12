@@ -44,4 +44,4 @@ function anotherFunChallenge(input) {
   let whoAmI = "I don't know"; // O(1)
 }
 
-Answer = O(1) ~ 4 and O(n) ~ O(6n) = O(4 + 6n) ==== O(n)
+Answer = O(1) ~ 4 and O(n) ~ O(7n) = O(4 + 7n) ==== O(n)
